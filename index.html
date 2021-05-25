@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <span>Nombre:</span><br>
+            <input type="text" name="name" id="nombre"><br>
+            <span>Apellido:</span><br>
+            <input type="text" name="lastName" id="apellido"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <span>Telefono:</span><br>
+            <input type="tel"  name="" id=""><br>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciones</legend>
+            <input list= "colores">
+            <datalist id="colores">
+                <option value="Rojo"></option>
+                <option value="Negro"></option>
+                <option value="Verde"></option>
+                <option value="Amarillo"></option>
+                <option value="Azul"></option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <span>Button:</span><br>
+            <input type="button" value="ok"><br>
+            <span>Check:</span>
+            <input type="checkbox" name="" id=""><br>
+            <span>Password:</span><br>
+            <input type="password" name="" id=""><br>
+            <span>Radio:</span><br>
+            <input type="radio" name="letter" id="a">
+            <label for="a"> a </label><br>
+            <input type="radio" name="letter" id="b">
+            <label for="b"> b </label><br>
+            <input type="radio" name="letter" id="c">
+            <label for="c"> c </label><br>
+            <input type="radio" name="letter" id="d">
+            <label for="d"> d </label><br>
+            <label for="">Opciones:</label>
+            <select name="" id="">
+                <option value="">a</option>
+                <option value="">b</option>
+                <option value="">c</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea  name="" |id="" |  ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Otros</legend>
+            <label for="">Color: </label>
+            <input type="color" name="" id=""><br>
+            <label for="">Fecha: </label>
+            <input type="date" name="" id=""><br>
+            <label for="">fecha y hora</label>
+            <input type="datetime-local" name="" id=""><br>
+            <input type="time" name="" id=""><br>
+            <input type="file" name="" id=""><br>
+            <input type="number" name="" id=""><br>
+            <input type="range" name="" min="0" max= "100" id="">
+
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="reset">
+        <br>
+
+
+
+    </form>
+</body>
+
+</html>
